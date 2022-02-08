@@ -26,24 +26,7 @@ def scrape(distrito, concelho, freguesia)
   end
 end
 
-s = "Bragança|Bragança|Sendas
-Bragança|Macedo de Cavaleiros|Peredo
-Bragança|Mirandela|Avidagos, Navalho e Pereira
-Évora|Montemor-o-Novo|Santiago do Escoural
-Porto|Amarante|Aboadela, Sanche e Várzea
-Santarém|Ferreira do Zêzere|Areias e Pias
-Viana do Castelo|Valença|São Julião e Silva
-Viana do Castelo|Viana do Castelo|Mujães
-Açores|Ponta Delgada|Ponta Delgada (São Pedro)
-Açores|Ponta Delgada|Relva
-Açores|Ponta Delgada|Remédios
-Açores|Ponta Delgada|Rosto do Cão (Livramento)
-Açores|Ponta Delgada|Rosto do Cão (São Roque)
-Açores|Ponta Delgada|Santa Bárbara
-Açores|Ponta Delgada|Santa Clara
-Açores|Ponta Delgada|Santo António
-Açores|Ponta Delgada|São Vicente Ferreira
-Açores|Ponta Delgada|Sete Cidades"
+s = 'Castelo Branco|Fundão|Souto da Casa'
 
 a = s.split(/\n+/)
 a = a.map { |e| e.split('|') }
